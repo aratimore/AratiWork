@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200520 10:05:12.702" rpa="false">
+<suite id="s1" name="PracticeProject" source="C:\Dev\CACSWorkspace\PracticeProject">
+<suite id="s1-s1" name="TestData" source="C:\Dev\CACSWorkspace\PracticeProject\TestData">
+<suite id="s1-s1-s1" name="RunPractice" source="C:\Dev\CACSWorkspace\PracticeProject\TestData\RunPractice.robot">
+<test id="s1-s1-s1-t1" name="Run Sample Code">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>"I am running code"</arg>
+</arguments>
+<status status="PASS" starttime="20200520 10:05:13.013" endtime="20200520 10:05:13.014"></status>
+</kw>
+<status status="PASS" starttime="20200520 10:05:13.013" endtime="20200520 10:05:13.014" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200520 10:05:12.794" endtime="20200520 10:05:13.015"></status>
+</suite>
+<status status="PASS" starttime="20200520 10:05:12.792" endtime="20200520 10:05:13.016"></status>
+</suite>
+<status status="PASS" starttime="20200520 10:05:12.767" endtime="20200520 10:05:13.017"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="PracticeProject">PracticeProject</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TestData">PracticeProject.TestData</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="RunPractice">PracticeProject.TestData.RunPractice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
